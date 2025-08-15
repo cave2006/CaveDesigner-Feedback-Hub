@@ -1,0 +1,35 @@
+name: Отзыв или предложение
+description: Оставьте замечание или идею по проекту
+title: "[Отзыв] Краткое описание"
+labels:
+  - feedback
+body:
+  - type: dropdown
+    id: project
+    attributes:
+      label: К какому проекту относится?
+      options:
+        - Project 1
+        - Project 2
+        - Project 3
+        - Другое
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Опишите проблему или идею
+      description: Расскажите, что именно хотите предложить или исправить.
+      placeholder: |
+        Например:
+        - Ошибка на странице X...
+        - Хочу добавить возможность...
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Дополнительная информация
+      description: Скриншоты, ссылки, примеры и т.д.
