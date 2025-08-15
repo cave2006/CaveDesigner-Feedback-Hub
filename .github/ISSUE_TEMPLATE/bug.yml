@@ -9,10 +9,19 @@ body:
     attributes:
       label: В каком проекте ошибка?
       options:
-        - Project 1
-        - Project 2
-        - Project 3
-        - Другое
+        - ТелеПост
+        - RadicalMart Compare
+        - RadicalMart Payment AtolPay
+        - RadicalMart Payment Tochka
+        - RadicalMart Quickicon Module
+        - RadicalMart Shipping Courier
+        - RadicalMart Shipping Pickup
+        - RadicalMart LastView
+        - RadicalMart CSVCart
+        - RadicalMart Connect GooglePeopleAPI
+        - RadicalMart Barcode
+        - RadicalForm User Registration
+        - RadicalForm PDF Create
     validations:
       required: true
 
